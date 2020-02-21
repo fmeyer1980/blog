@@ -1,0 +1,66 @@
+{
+    "siteName": "Flemming blog - ",
+    "siteDescription": "hjemmesider, webshops og webapplikationer. Søger du et webbureau der skaber online resultater til en skab priser. Så kontakt indexed. Vi ved hvad der virker",
+    "phone": "28 43 42 39",
+    "mail": "peter@indexed.dk",
+    "cvr": "DK39546507",
+    "address": "Østergade 4, 2. sal",
+    "zipCode": "8370 Hadsten",
+    "openHours": "man-tors 8-16, fre 8-15",
+    "socialmedia": [
+        {
+            "name": "facebook",
+            "icon": "/src/assets/images/facebook-icon.svg",
+            "url": "facebook-url"
+        },
+        {
+            "name": "twitter",
+            "icon": "/src/assets/images/twitter-icon.svg",
+            "url": "twitter-url"
+        },
+        {
+            "name": "instagram",
+            "icon": "/src/assets/images/instagram-icon.svg",
+            "url": "instagram-url"
+        }
+    ],
+    "preFooter":{
+        "heading": "Lad os arbejde sammen om at opbygge noget stort!",
+        "image": "pre-footer-image",
+        "text": "Så kan du ringe på, eller sende os en mail på formularen. "
+    },
+    "brands": [
+        {
+            "icon": "/src/assets/images/brands/comwell.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/symforny.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/tryg-2.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/hjerteforeningen.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/symforny.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/comwell.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/symforny.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/tryg-2.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/hjerteforeningen.svg"
+        },
+        {
+            "icon": "/src/assets/images/brands/symforny.svg"
+        }
+    ],
+    "claudinaryUrl": "https://res.cloudinary.com/indexed/image/upload/",
+    "claudinaryFolder": "/v1577107014/indexed/"
+}

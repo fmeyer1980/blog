@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'src/blog'
+    fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+media_library:
+  name: cloudinary
+  config:
+    clude_name: fmeyer1980
+    api_key: 711621795934345
+    default_transformations:
+      - fetch_format: auto
+        quality: auto

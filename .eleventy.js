@@ -1,12 +1,17 @@
-// const filters = require('./src/_11ty/filters')
-
 module.exports = function(eleventyConfig) {
-    // eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
+
+    eleventyConfig.addPassthroughCopy('admin');
 
     eleventyConfig.addCollection("tagList", require("./src/_filters/getTagList.js"));
     eleventyConfig.addCollection("posts", function(collection) {
       return collection.getFilteredByGlob("src/blog/*.md").reverse();
     });
+
+    eleventyConfig.addCollection("author", function(collection) {
+        return collection.getFilteredByGlob("src/author/*.md").reverse();
+      });
+
+
     return {
         markdownTemplateEngine: "njk",
         templateFormats: ["html", "njk", "md"],

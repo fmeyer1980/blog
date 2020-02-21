@@ -1,0 +1,17 @@
+---
+tags:
+  - nav
+navtitle: tags
+---
+
+{% extends 'layouts/default.njk' %}
+
+{% block content %}
+hh
+<ul>
+{% for tag in collections.tagList %}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <li><a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a> ({{ collections[tag].length }})</li>
+{% endfor %}
+</ul>
+{% endblock %}

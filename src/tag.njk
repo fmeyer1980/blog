@@ -1,0 +1,33 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+renderData:
+  title: Tagged “{{ tag }}”
+permalink: /tags/{{ tag }}/
+---
+
+<div class="content">
+  <section>
+    <h1>Tagged “{{ tag }}”</h1>
+
+    {% set archivelist = collections[ tag ] %}
+    <div reversed class="archivelist">
+        {% for post in archivelist | reverse %}
+        <article class="archivelist-item{% if post.url == url %} archivelist-item-active{% endif %}">
+            <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+        </article>
+        {% endfor %}
+    </div>
+  </section>
+
+  <p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+</div>

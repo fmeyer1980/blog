@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  branch: master
 collections:
   - name: 'blog'
     label: 'Blog'

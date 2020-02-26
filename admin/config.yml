@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-
+  name: github
+  repo: fmeyer1980/blog
 media_library:
   name: cloudinary
   config:
@@ -9,7 +9,6 @@ media_library:
     default_transformations:
       - fetch_format: auto
         quality: auto
-
 collections:
   - name: 'blog'
     label: 'Blog'

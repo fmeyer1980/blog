@@ -1,7 +1,10 @@
 ---
-title: Author 1
+layout: "layouts/blog-archive.njk"
+title: "Post side"
 description: Lighthouse is an amazing tool that helps you identify specific speed problems on your website.
-image: "mig-final-2017_breh7h.jpg"
 tags:
-    - author
+  - nav
+navtitle: Blog
 ---
+
+# Post-2

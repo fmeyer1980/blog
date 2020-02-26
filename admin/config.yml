@@ -1,6 +1,7 @@
 backend:
-  name: github
-  repo: fmeyer1980/blog
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
 media_library:
   name: cloudinary
   config:
@@ -9,6 +10,7 @@ media_library:
     default_transformations:
       - fetch_format: auto
         quality: auto
+
 collections:
   - name: 'blog'
     label: 'Blog'
